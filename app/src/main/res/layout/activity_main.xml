@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context="com.example.a4do.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_marginTop="5dp"
+            android:progressTint="@color/red"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/progress"
+            android:minHeight="40dip"
+            android:maxHeight="40dip"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/noQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Question N° : "
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Homme ou Femme?"
+            android:textColor="@color/red"
+            android:fontFamily="casual"
+            android:textSize="20dp" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:id="@+id/GrdLayout"
+
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:rowCount="4" >
+            <FrameLayout>
+                <ImageButton
+                    android:id="@+id/btnRep1"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left|top"
+                    android:src="@drawable/homme"
+                    android:background="@color/red"
+                    />
+
+                <TextView
+                    android:id="@+id/txtRep1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:textColor="@color/color5"
+                    android:text="Homme"
+                    android:textStyle="bold"
+                    android:layout_marginTop="40dp">
+                </TextView>
+            </FrameLayout>
+
+            <FrameLayout>
+                <ImageButton
+                    android:id="@+id/btnRep2"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left|top"
+                    android:src="@drawable/femme"
+                    android:background="@color/red"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txtRep2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:text="Femme"
+                    android:textStyle="bold"
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/color5"
+                    >
+                </TextView>
+            </FrameLayout>
+
+            <FrameLayout>
+                <ImageButton
+                    android:id="@+id/btnRep3"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left|top"
+                    android:src="@drawable/baby"
+                    android:background="@color/red"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txtRep3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:text="Enfant"
+                    android:textStyle="bold"
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/color5"
+                    >
+                </TextView>
+            </FrameLayout>
+
+            <FrameLayout>
+                <ImageButton
+                    android:id="@+id/btnRep4"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left|top"
+                    android:src="@drawable/couple"
+                    android:background="@color/red"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txtRep4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:text="Couple"
+                    android:textStyle="bold"
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/color5"
+                    >
+                </TextView>
+            </FrameLayout>
+        </GridLayout>
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/noLivraison"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="casual"
+            android:text="Suivre votre livraison : "/>
+
+        <EditText
+            android:id="@+id/txtTrack"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/btnTrack"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:text="Ok"
+            android:textColor="@color/color5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

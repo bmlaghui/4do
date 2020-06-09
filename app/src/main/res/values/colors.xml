@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="color1">#73b642</color>
+    <color name="color2">#f29200</color>
+    <color name="color3">#0D324E</color>
+    <color name="color4">#317202</color>
+    <color name="color5">#FFFFFF</color>
+    <color name="red">#aa030a</color>
+
+
+    <color name="colorLowCarb">#3F51B5</color>
+    <color name="colorLowFat">#FF4081</color>
+    <color name="colorLowSodium">#303F9F</color>
+    <color name="colorMediumCarb">#fff69c39</color>
+    <color name="colorVegetarian">#77000000</color>
+    <color name="colorBalanced">#ffc6c6 </color>
+
+</resources>

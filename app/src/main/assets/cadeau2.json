@@ -1,0 +1,38 @@
+[
+  {
+    "gifts":{
+      "idCadeau":"1",
+      "nomCadeau":"coffret cadeau montre Homme avec couteau multifonction , portefeuilles et stylo",
+      "prixCadeau":"70",
+      "imageCadeau":"https://www.cdiscount.com/pdt2/2/5/0/1/700x700/bel0732330614250/rw/coffret-cadeau-montre-homme-avec-couteau-multifonc.jpg",
+      "descriptionCadeau":"CE COFFRET COMPREND UNE MONTRE HOMME BELLOS,UN STYLO,UN PORTEFEUILLE AINSI QU UN COUTEAU MULTIFONCTIONS. UNE IDEE ORIGINALE DE CADEAU"
+    }
+  },
+  {
+    "gifts":{
+      "idCadeau":"2",
+      "nomCadeau":"Tondeuse Cheveux ",
+      "prixCadeau":"52",
+      "imageCadeau":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSS6gi-amTdjnCJ7-Wx38gOMQG4okmAmGWf7xOxSyar8r4kCDj9&usqp=CAU",
+      "descriptionCadeau":"KEMEI Coffret Tondeuse Cheveux Barbe Pro Cadeaux Homme 6 EN 1 USB"
+    }
+  },
+  {
+    "gifts":{
+      "idCadeau":"3",
+      "nomCadeau":"SAUVAGE EAU DE PARFUM",
+      "prixCadeau":"90",
+      "imageCadeau":"https://www.parfumdo.com/35446-large_default/sauvage-eau-de-parfum.jpg",
+      "descriptionCadeau":"Format : Vaporisateur, Contenance : 60 ml , Famille Olfactive : Frais aromatique"
+    }
+  },
+  {
+    "gifts":{
+      "idCadeau":"4",
+      "nomCadeau":"T-shirt Lacoste ",
+      "prixCadeau":"66",
+      "imageCadeau":"https://image1.lacoste.com/dw/image/v2/AAQM_PRD/on/demandware.static/Sites-FR-Site/Sites-master/fr/dw96d2b1b3/TH8686_G64_20.jpg?imwidth=767&impolicy=product",
+      "descriptionCadeau":"T-shirt Lacoste SPORT en pique respirant avec bandes croco - Rouge"
+    }
+  }
+]
